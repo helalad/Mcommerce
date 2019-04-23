@@ -118,6 +118,11 @@ public class ProductController {
         return map;
 
     }
-
+    @RequestMapping(value="TriProduit" , method = RequestMethod.GET)
+    public List<Product> trierProduitsParOrdreAlphabetique(){
+        List<Product> l = productDao.productSortByName();
+        if(l==null) throw new ProduitIntrouvableException("Aucun produit trouvé !!!");
+        return l;
+    }
 
 }
