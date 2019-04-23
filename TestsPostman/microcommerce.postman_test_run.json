@@ -1,0 +1,204 @@
+{
+	"id": "5850f260-2176-4d30-b3e4-a64a175a5a16",
+	"name": "microcommerce",
+	"allTests": [],
+	"timestamp": "2019-04-23T14:41:56.870Z",
+	"collection_id": "f3c91057-9ae1-4793-81da-464c7ab3353f",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "f3c91057-9ae1-4793-81da-464c7ab3353f",
+		"name": "microcommerce",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"904a8761-a02c-4d95-babf-5e8f3b9b7c14",
+			"17bd6d78-bb6d-4f33-b93b-f5ec33f64c8a",
+			"c19e867e-55ef-4397-850c-a20a557a2a92",
+			"f70c8b5f-0c31-451b-a896-cef67491e830"
+		],
+		"folders_order": [],
+		"owner": "7268691",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "liste des produits",
+			"id": "904a8761-a02c-4d95-babf-5e8f3b9b7c14",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"184"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "184",
+			"totalRequestTime": "184",
+			"iterationResults": {}
+		},
+		{
+			"name": "AdminProduits",
+			"id": "17bd6d78-bb6d-4f33-b93b-f5ec33f64c8a",
+			"url": "http://localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"8"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "8",
+			"totalRequestTime": "8",
+			"iterationResults": {}
+		},
+		{
+			"name": "triProduit",
+			"id": "c19e867e-55ef-4397-850c-a20a557a2a92",
+			"url": "http://localhost:9090/TriProduit",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"50"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "50",
+			"totalRequestTime": "50",
+			"iterationResults": {}
+		},
+		{
+			"name": "Ajout Produit",
+			"id": "f70c8b5f-0c31-451b-a896-cef67491e830",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 254,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "liste des produits",
+			"id": "904a8761-a02c-4d95-babf-5e8f3b9b7c14",
+			"url": "http://localhost:9090/Produits",
+			"time": "2019-04-23T14:41:56.870Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "AdminProduits",
+			"id": "17bd6d78-bb6d-4f33-b93b-f5ec33f64c8a",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": "2019-04-23T14:41:56.870Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "triProduit",
+			"id": "c19e867e-55ef-4397-850c-a20a557a2a92",
+			"url": "http://localhost:9090/TriProduit",
+			"time": "2019-04-23T14:41:56.870Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "Ajout Produit",
+			"id": "f70c8b5f-0c31-451b-a896-cef67491e830",
+			"url": "http://localhost:9090/Produits",
+			"time": "2019-04-23T14:41:56.870Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
