@@ -106,7 +106,18 @@ public class ProductController {
         return productDao.chercherUnProduitCher(400);
     }
 
+    @RequestMapping(value ="/AdminProduits" ,method = RequestMethod.GET)
+    public Map<Product,Integer> calculerMargeProduit(){
+        Map<Product,Integer> map ;
+        List<Product> listp =  productDao.findAll();
 
+        if(listp==null) throw new ProduitIntrouvableException("Aucun produit trouvé !!!");
+        map = new HashMap<>();
+        long nb =listp.stream().peek(p -> map.put(p,(p.getPrix()-p.getPrixAchat()))).count();
+
+        return map;
+
+    }
 
 
 }
